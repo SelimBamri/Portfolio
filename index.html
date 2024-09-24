@@ -590,10 +590,94 @@
           <div class="row portfolio-wrapper">
             <!-- portfolio item -->
             <div class="col-md-4 col-sm-6 grid-item creative design">
+              <a href="#small-dialog9" class="work-content">
+                <div class="portfolio-item rounded shadow-dark">
+                  <div class="details">
+                    <h4 class="title">Find The Mole</h4>
+                    <span class="more-button"
+                      ><i class="icon-options"></i
+                    ></span>
+                  </div>
+                  <div class="thumb">
+                    <img
+                      src="images/images/logo-projet-9.png"
+                      alt="Portfolio-title"
+                    />
+                    <div class="mask"></div>
+                  </div>
+                </div>
+              </a>
+              <div
+                id="small-dialog9"
+                class="white-popup zoom-anim-dialog mfp-hide"
+              >
+                <div class="iframe-container">
+                  <iframe
+                    class="responsive-iframe"
+                    src="https://www.youtube.com/embed/s5CqAsAEfXk"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <h2>Find The Mole</h2>
+                <p>Find the mole is a real time chat based game.</p>
+                <p>
+                  The game was developed using
+                  <span style="font-weight: 600"> .NET8</span> for the backend
+                  and <span style="font-weight: 600"> Angular 17</span> for the
+                  frontend.
+                </p>
+                <p>
+                  <span style="font-weight: 600"> SignalR </span> was used for
+                  real time synchronization and message exchange.
+                </p>
+                <p>
+                  The rules of the game are quiet simple. A game has a number of
+                  players varying from three to ten.
+                </p>
+                <p>
+                  When a game starts, a location among 15 possible locations is
+                  chosen and one of the players will be the Mole while the
+                  others will be detectives.
+                </p>
+                <p>
+                  The detectives will know what the location is and will have to
+                  guess who the mole is by asking other players questions. When
+                  a detective thinks he knows who the mole is, he can request to
+                  vote.
+                </p>
+                <p>
+                  As for the mole, he will have to try and figure out what the
+                  game location is and at any point in the game, he can make a
+                  guess. When he does the game will immediately be over and he
+                  will win if the guess was correct or lose otherwise. Like the
+                  other players, the mole can request a vote. This strategy can
+                  be used when he feels that the group is more suspicious of
+                  another player.
+                </p>
+                <p>
+                  If the number of the players who want to vote exceeds half of
+                  the initial number of the players, all the players are
+                  redirected to the vote screen where they have to vote for who
+                  they think the mole is. Once all the players have voted, the
+                  game is over. If the mole gets the majority of the votes, the
+                  group wins otherwise the mole wins.
+                </p>
+                <p></p>
+                <p>
+                  <a
+                    href="https://github.com/SelimBamri/FindTheMoleFront"
+                    class="btn btn-default"
+                    >View on Github</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 grid-item creative design">
               <a href="#small-dialog" class="work-content">
                 <div class="portfolio-item rounded shadow-dark">
                   <div class="details">
-                    <h4 class="title">Huruf Toon</h4>
+                    <h4 class="title">Dys E-Learning Platform</h4>
                     <span class="more-button"
                       ><i class="icon-options"></i
                     ></span>
@@ -612,17 +696,19 @@
                 id="small-dialog"
                 class="white-popup zoom-anim-dialog mfp-hide"
               >
-                <iframe
-                  style="width: 36.875rem; height: 17.5rem"
-                  src="https://www.youtube.com/embed/ES06SlHxw64"
-                  frameborder="0"
-                  allowfullscreen
-                ></iframe>
+                <div class="iframe-container">
+                  <iframe
+                    class="responsive-iframe"
+                    src="https://www.youtube.com/embed/ES06SlHxw64"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
 
-                <h2>Huruf Toon</h2>
+                <h2>Dys E-Learning Platform</h2>
                 <p>
                   Huruf Toon is user-friendly web application tailored
-                  specifically to Tunisian learners and the local education
+                  specifically to Tunisian learners and to the local education
                   system. This adaptive platform aims to address the
                   shortcomings of existing solutions by providing customized
                   exercises for different types of dys disorders. This was a
@@ -634,9 +720,9 @@
                   To develop our platform, we created several
                   <span style="font-weight: 600">machine learning</span> and
                   <span style="font-weight: 600">deep learning</span> models and
-                  then we created a web application using the
-                  <span style="font-weight: 600">Flask</span> flask framework
-                  for backend development alongside
+                  deployed in a web application using the
+                  <span style="font-weight: 600">Flask</span> framework for
+                  backend development alongside
                   <span style="font-weight: 600">Jinja 2</span>
                   as template engine.
                 </p>
@@ -670,20 +756,22 @@
                   <br />
                   We also tried to boost the child's artistic capabilities by
                   allowing him to draw pictures and then comparing them to a
-                  prompt. To achieve this end we used, YOLOv8 to detect the
+                  prompt. To achieve this end, we used
+                  <span style="font-weight: 600">YOLOv8</span> to detect the
                   drawn objects.
                 </p>
                 <p>
                   <span style="font-weight: 600">
                     Development of Dyslexia Chatbot:
                   </span>
-                  In our application, we also developed a dashboard for the
-                  parent, enabling him to keep up with his child's evolution and
-                  providing him with a list of speech therapists he can reach
-                  out to. We also crafted a chatbot that answers to dys related
-                  questions employing two models BERT and GPTLMHead. While BERT
-                  excels in understanding contextual nuances, GPTLMHead shines
-                  in generating coherent and contextually relevant responses.
+                  We also crafted a chatbot that answers to dys related
+                  questions employing two models
+                  <span style="font-weight: 600">BERT</span> and
+                  <span style="font-weight: 600">GPTLMHead</span>. While
+                  <span style="font-weight: 600">BERT</span> excels in
+                  understanding contextual nuances,
+                  <span style="font-weight: 600">GPTLMHead</span> shines in
+                  generating coherent and contextually relevant responses.
                 </p>
                 <a
                   href="https://github.com/SelimBamri/HurufToon"
@@ -714,13 +802,14 @@
                 id="small-dialog2"
                 class="white-popup zoom-anim-dialog mfp-hide"
               >
-                <iframe
-                  style="width: 36.875rem; height: 17.5rem"
-                  src="https://www.youtube.com/embed/x95SPHD8JmA"
-                  frameborder="0"
-                  allowfullscreen
-                ></iframe>
-
+                <div class="iframe-container">
+                  <iframe
+                    class="responsive-iframe"
+                    src="https://www.youtube.com/embed/x95SPHD8JmA"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
                 <h2>IFRS 9 Dashboard</h2>
                 <p>
                   After the Subprime Crisis on 2008, the International
@@ -787,6 +876,132 @@
               </div>
             </div>
             <div class="col-md-4 col-sm-6 grid-item creative design">
+              <a href="#small-dialog6" class="work-content">
+                <div class="portfolio-item rounded shadow-dark">
+                  <div class="details">
+                    <h4 class="title">Blog Application</h4>
+                    <span class="more-button"
+                      ><i class="icon-options"></i
+                    ></span>
+                  </div>
+                  <div class="thumb">
+                    <img
+                      src="images/images/logo-projet-6.png"
+                      alt="Portfolio-title"
+                    />
+                    <div class="mask"></div>
+                  </div>
+                </div>
+              </a>
+              <div
+                id="small-dialog6"
+                class="white-popup zoom-anim-dialog mfp-hide"
+              >
+                <div class="iframe-container">
+                  <iframe
+                    class="responsive-iframe"
+                    src="https://www.youtube.com/embed/casKyfWUA24"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <h2>Blog Application</h2>
+                <p>
+                  This is a Blog application developed using
+                  <span style="font-weight: 600"> .NET8</span> for the backend
+                  and <span style="font-weight: 600"> Angular 17</span> for the
+                  frontend.
+                </p>
+                <p>
+                  The app uses
+                  <span style="font-weight: 600"> JSON Web Tokens</span> for
+                  authentication.
+                </p>
+                <p>
+                  The user can create an account and perform basic CRUD
+                  operations on his account information.
+                </p>
+                <p>
+                  He can then create, manage and publish articles using
+                  <span style="font-weight: 600">TinyMCE</span> for text
+                  editing.
+                </p>
+                <p>
+                  <a
+                    href="https://github.com/SelimBamri/BlogAppFront"
+                    class="btn btn-default"
+                    >View on Github</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 grid-item creative design">
+              <a href="#small-dialog5" class="work-content">
+                <div class="portfolio-item rounded shadow-dark">
+                  <div class="details">
+                    <h4 class="title">Todo list application</h4>
+                    <span class="more-button"
+                      ><i class="icon-options"></i
+                    ></span>
+                  </div>
+                  <div class="thumb">
+                    <img
+                      src="images/images/logo-projet-5.png"
+                      alt="Portfolio-title"
+                    />
+                    <div class="mask"></div>
+                  </div>
+                </div>
+              </a>
+              <div
+                id="small-dialog5"
+                class="white-popup zoom-anim-dialog mfp-hide"
+              >
+                <div class="iframe-container">
+                  <iframe
+                    class="responsive-iframe"
+                    src="https://www.youtube.com/embed/I9tw4jZigi4"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <h2>Todo list application</h2>
+                <p>
+                  This is a Todo list application developed using
+                  <span style="font-weight: 600"> Spring Boot</span> for the
+                  backend and
+                  <span style="font-weight: 600"> Angular 17</span> for the
+                  frontend.
+                </p>
+                <p>
+                  The app uses
+                  <span style="font-weight: 600"> JSON Web Tokens</span> for
+                  authentication and
+                  <span style="font-weight: 600"> RBAC</span> for authorization.
+                </p>
+                <p>
+                  The user can create an account and perform basic CRUD
+                  operations on his account information.
+                </p>
+                <p>
+                  He can then create and manage Todo lists in a very
+                  straightforward way made easy by our user-friendly interface.
+                </p>
+                <p>
+                  The admin has the same functionalities but he can further see
+                  the list of users, delete users if he wants and add other
+                  admins.
+                </p>
+                <p>
+                  <a
+                    href="https://github.com/SelimBamri/to-do-list-front"
+                    class="btn btn-default"
+                    >View on Github</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 grid-item creative design">
               <a href="#small-dialog3" class="work-content">
                 <div class="portfolio-item rounded shadow-dark">
                   <div class="details">
@@ -808,13 +1023,14 @@
                 id="small-dialog3"
                 class="white-popup zoom-anim-dialog mfp-hide"
               >
-                <iframe
-                  style="width: 36.875rem; height: 17.5rem"
-                  src="https://www.youtube.com/embed/6qSXAN7rTkY"
-                  frameborder="0"
-                  allowfullscreen
-                ></iframe>
-
+                <div class="iframe-container">
+                  <iframe
+                    class="responsive-iframe"
+                    src="https://www.youtube.com/embed/6qSXAN7rTkY"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
                 <h2>Sudoku Solver</h2>
                 <p>
                   A simple sudoku solver web application using a backtracking
@@ -861,13 +1077,14 @@
                 id="small-dialog4"
                 class="white-popup zoom-anim-dialog mfp-hide"
               >
-                <iframe
-                  style="width: 36.875rem; height: 17.5rem"
-                  src="https://www.youtube.com/embed/U9eyvDBRDJU"
-                  frameborder="0"
-                  allowfullscreen
-                ></iframe>
-
+                <div class="iframe-container">
+                  <iframe
+                    class="responsive-iframe"
+                    src="https://www.youtube.com/embed/U9eyvDBRDJU"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
                 <h2>Rick and Morty fandom</h2>
                 <p>
                   A minimalistic
@@ -887,17 +1104,17 @@
               </div>
             </div>
             <div class="col-md-4 col-sm-6 grid-item creative design">
-              <a href="#small-dialog5" class="work-content">
+              <a href="#small-dialog7" class="work-content">
                 <div class="portfolio-item rounded shadow-dark">
                   <div class="details">
-                    <h4 class="title">Todo list application</h4>
+                    <h4 class="title">Chat Application</h4>
                     <span class="more-button"
                       ><i class="icon-options"></i
                     ></span>
                   </div>
                   <div class="thumb">
                     <img
-                      src="images/images/logo-projet-5.png"
+                      src="images/images/logo-projet-7.png"
                       alt="Portfolio-title"
                     />
                     <div class="mask"></div>
@@ -905,46 +1122,110 @@
                 </div>
               </a>
               <div
-                id="small-dialog5"
+                id="small-dialog7"
                 class="white-popup zoom-anim-dialog mfp-hide"
               >
                 <iframe
                   style="width: 36.875rem; height: 17.5rem"
-                  src="https://www.youtube.com/embed/I9tw4jZigi4"
+                  src="https://www.youtube.com/embed/tGBmgmhJ-MU"
                   frameborder="0"
                   allowfullscreen
                 ></iframe>
 
-                <h2>Todo list application</h2>
+                <h2>Chat Application</h2>
                 <p>
-                  This is a Todo list application developed using
-                  <span style="font-weight: 600"> Spring Boot</span> for the
+                  This is a real time, room based chat application developed
+                  using <span style="font-weight: 600"> .NET8</span> for the
                   backend and
                   <span style="font-weight: 600"> Angular 17</span> for the
                   frontend.
                 </p>
                 <p>
-                  The app uses
-                  <span style="font-weight: 600"> JSON Web Tokens</span> for
-                  authentication and
-                  <span style="font-weight: 600"> RBAC</span> for authorization.
+                  In this application, we used
+                  <span style="font-weight: 600"> SignalR</span> to establish
+                  real time message exchange.
                 </p>
                 <p>
-                  The user can create an account and perform basic CRUD
-                  operations on his account information.
-                </p>
-                <p>
-                  He can then create and manage Todo lists in a very
-                  straightforward way made easy by our user-friendly interface.
-                </p>
-                <p>
-                  The admin has the same functionalities but he can further see
-                  the list of users, delete users if he wants and add other
-                  admins.
+                  The user can pick a username and type a chat room name. He
+                  will then be redirected to the chat room where he can chat
+                  with other users in the same room.
                 </p>
                 <p>
                   <a
-                    href="https://github.com/SelimBamri/to-do-list-front"
+                    href="https://github.com/SelimBamri/ChatApp"
+                    class="btn btn-default"
+                    >View on Github</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 grid-item creative design">
+              <a href="#small-dialog8" class="work-content">
+                <div class="portfolio-item rounded shadow-dark">
+                  <div class="details">
+                    <h4 class="title">Budget Management</h4>
+                    <span class="more-button"
+                      ><i class="icon-options"></i
+                    ></span>
+                  </div>
+                  <div class="thumb">
+                    <img
+                      src="images/images/logo-projet-8.png"
+                      alt="Portfolio-title"
+                    />
+                    <div class="mask"></div>
+                  </div>
+                </div>
+              </a>
+              <div
+                id="small-dialog8"
+                class="white-popup zoom-anim-dialog mfp-hide"
+              >
+                <div class="iframe-container">
+                  <iframe
+                    class="responsive-iframe"
+                    src="https://www.youtube.com/embed/jfhDu7ySJvY"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+
+                <h2>Budget Management</h2>
+                <p>
+                  This is a
+                  <span style="font-weight: 600"> Flask </span> application
+                  developed for budget management and tracking.
+                </p>
+                <p>
+                  The user can create an account and he can perform basic CRUD
+                  operations like checking, deleting or updating his account
+                  info.
+                </p>
+                <p>
+                  The application has three main sections, Income, Spending, and
+                  Budget.
+                </p>
+                <p>
+                  A user can add an income by providing the date, the amount and
+                  category of the income (Salary, Lottery...) He then can check
+                  the total amount for his incomes and update them whenever
+                  needed.
+                </p>
+                <p>
+                  The user has the same functionalities for the his spending. He
+                  Basically can add and track his spending by dates and
+                  categories.
+                </p>
+                <p>
+                  The user can as well define a Budget, Where he provides a
+                  limit amount of spending for a chosen category for some date.
+                  And then the application will track his spending on that
+                  specific category and inform if he has exceeded the defined
+                  budget.
+                </p>
+                <p>
+                  <a
+                    href="https://github.com/SelimBamri/Budget"
                     class="btn btn-default"
                     >View on Github</a
                   >
